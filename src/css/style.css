@@ -1,0 +1,40 @@
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.painting-container {
+    flex-shrink: 0;
+    margin: 0 5px 5px 5px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.title-container {
+    position: absolute;
+    bottom: 45px;
+    left: 20px;
+    color: #fff;
+}
+
+.painting-name {
+    padding-bottom: 8px;
+    font-size: 30px;
+}
+
+.artist {
+    font-size: 17px;
+    font-weight: 300;
+}
